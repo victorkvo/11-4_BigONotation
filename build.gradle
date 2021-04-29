@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'com.tts'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    testImplementation 'junit:junit:4.13.1'
+    implementation group: 'org.jfree', name: 'jfreechart', version: '1.5.3'
+
+    implementation 'junit:junit:4.13.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+// https://mvnrepository.com/artifact/org.jfree/jfreechart
+
+
+}
+
+
+//test {
+//    useJUnitPlatform()
+//}
